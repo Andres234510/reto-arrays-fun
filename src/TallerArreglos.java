@@ -57,8 +57,14 @@ public class TallerArreglos {
 
     // Método para invertir el arreglo
     public static void invertirArreglo(int[] arr) {
-        // Implementa este método
+        int n = arr.length;
+        for (int i = 0; i < n / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[n - 1 - i];
+            arr[n - 1 - i] = temp;
+        }
     }
+
 
     // Método para ordenar el arreglo (puedes usar el algoritmo de burbuja)
     public static void ordenarArreglo(int[] arr) {
