@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db100739-e0d7-40b5-a7dc-eea7bb10fa02" name="Changes" comment="Primer comit" />
+    <list default="true" id="db100739-e0d7-40b5-a7dc-eea7bb10fa02" name="Changes" comment="tercer comit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,11 +65,45 @@
       <option name="project" value="LOCAL" />
       <updated>1723043625874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segundo comit">
+      <option name="closed" value="true" />
+      <created>1723044684140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723044684140</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tercer comit">
+      <option name="closed" value="true" />
+      <created>1723045549203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723045549203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tercer comit">
+      <option name="closed" value="true" />
+      <created>1723045743168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723045743168</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tercer comit">
+      <option name="closed" value="true" />
+      <created>1723045830036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723045830036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer comit" />
+    <MESSAGE value="Segundo comit" />
+    <MESSAGE value="tercer comit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercer comit" />
   </component>
 </project>
