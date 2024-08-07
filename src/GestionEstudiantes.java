@@ -36,9 +36,18 @@ public class GestionEstudiantes {
     }
 
 
-    public static void encontrarMejorEstudiante(String[] estudiantes, double[][] notas) {
-        // Implementa este método
+    public static void calcularPromedios(String[] estudiantes, double[][] notas) {
+        System.out.println("\nPromedios de los estudiantes:");
+        for (int i = 0; i < estudiantes.length; i++) {
+            double suma = 0;
+            for (int j = 0; j < notas[i].length; j++) {
+                suma += notas[i][j];
+            }
+            double promedio = suma / notas[i].length;
+            System.out.println(estudiantes[i] + ": " + promedio);
+        }
     }
+
 
     public static void encontrarMejorMateria(String[] materias, double[][] notas) {
         // Implementa este método
