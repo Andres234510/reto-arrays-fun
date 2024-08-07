@@ -47,9 +47,13 @@ public class TallerArreglos {
 
     // Método para calcular el promedio
     public static double calcularPromedio(int[] arr) {
-        // Implementa este método
-        return 0.0;
+        int suma = 0;
+        for (int num : arr) {
+            suma += num;
+        }
+        return (double) suma / arr.length;
     }
+
 
     // Método para invertir el arreglo
     public static void invertirArreglo(int[] arr) {
