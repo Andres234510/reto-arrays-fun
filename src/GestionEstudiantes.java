@@ -49,7 +49,25 @@ public class GestionEstudiantes {
     }
 
 
-    public static void encontrarMejorMateria(String[] materias, double[][] notas) {
-        // Implementa este método
+    public static void encontrarMejorEstudiante(String[] estudiantes, double[][] notas) {
+        double maxPromedio = -1;
+        String mejorEstudiante = "";
+
+        for (int i = 0; i < estudiantes.length; i++) {
+            double suma = 0;
+            for (int j = 0; j < notas[i].length; j++) {
+                suma += notas[i][j];
+            }
+            double promedio = suma / notas[i].length;
+            if (promedio > maxPromedio) {
+                maxPromedio = promedio;
+                mejorEstudiante = estudiantes[i];
+            }
+        }
+
+        System.out.println("\nEl estudiante con el promedio más alto es: " + mejorEstudiante + " con un promedio de " + maxPromedio);
     }
+
+
+
 }
